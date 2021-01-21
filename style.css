@@ -58,7 +58,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 75vh;
 }
 
 .panel {
@@ -74,26 +74,43 @@ body{
 
 .blurb {
     background-color: #ea5455;
-    padding: 15px 25px;
+    padding: 25px 25px;
 }
 .price {
     background-color: #f07b3f;
-    padding: 15px 25px;
+    padding: 25px 25px;
 }
 .features {
     background-color: #ffd460;
-    padding: 15px 25px;
+    padding: 25px 25px;
 }
 
+.blurb p {
+    line-height: 1.5em;
+}
+
+.blurb h2 {
+    color: #2d4059;
+}
 
 
 h1 {
     font-size: 1.8rem;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+    color: white;
 }
 h2 {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     margin-bottom: 25px;
+    color: #2d4059;
+}
+
+.price h2 {
+
+    color: white;
+}
+.features h2 {
+
 }
 
 
